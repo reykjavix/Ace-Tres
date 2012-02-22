@@ -1,0 +1,1165 @@
+﻿Build started 2/22/2012 12:00:01 AM.
+     1>Project "C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Ace Tres\Ace Tres.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /Wall /WX- /Ox /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Ace Tres\\" /Fd"Ace Tres\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SongPlayer.cpp
+         SongPlayer.cpp
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(109): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::attrib'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(114): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::name'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(118): warning C4820: '_wfinddata64_t' : '4' bytes padding added after data member '_wfinddata64_t::attrib'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(488): warning C4820: '_stat32' : '2' bytes padding added after data member '_stat32::st_gid'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(504): warning C4820: 'stat' : '2' bytes padding added after data member 'stat::st_gid'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(520): warning C4820: '_stat32i64' : '2' bytes padding added after data member '_stat32i64::st_gid'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(521): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_rdev'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(525): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_ctime'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(534): warning C4820: '_stat64i32' : '2' bytes padding added after data member '_stat64i32::st_gid'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(548): warning C4820: '_stat64' : '2' bytes padding added after data member '_stat64::st_gid'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(549): warning C4820: '_stat64' : '4' bytes padding added after data member '_stat64::st_rdev'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdbg.h(1042): warning C4986: 'operator new[]': exception specification does not match previous declaration
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new(79) : see declaration of 'operator new[]'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdbg.h(1060): warning C4986: 'operator delete[]': exception specification does not match previous declaration
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new(77) : see declaration of 'operator delete[]'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\typeinfo(76): warning C4820: 'type_info' : '3' bytes padding added after data member 'type_info::_M_d_name'
+     1>SongPlayer.cpp(120): warning C4172: returning address of local variable or temporary
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(467): warning C4514: 'abs' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(471): warning C4514: 'abs' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(475): warning C4514: 'div' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(479): warning C4514: 'div' : unreferenced inline function has been removed
+     1>c:\users\wack\desktop\ace tres finalx\fmod_errors.h(4): warning C4505: 'FMOD_ErrorString' : unreferenced local function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\yvals.h(773): warning C4514: 'std::_Mutex::_Mutex' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(161): warning C4514: 'hypot' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(166): warning C4514: 'hypotf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(380): warning C4514: '_chgsignl' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(385): warning C4514: '_copysignl' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(495): warning C4514: 'abs' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(497): warning C4514: 'pow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(499): warning C4514: 'abs' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(501): warning C4514: 'acos' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(503): warning C4514: 'asin' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(505): warning C4514: 'atan' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(507): warning C4514: 'atan2' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(509): warning C4514: 'ceil' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(511): warning C4514: 'cos' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(513): warning C4514: 'cosh' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(515): warning C4514: 'exp' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(517): warning C4514: 'fabs' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(519): warning C4514: 'floor' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(521): warning C4514: 'fmod' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(523): warning C4514: 'frexp' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(525): warning C4514: 'ldexp' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(527): warning C4514: 'log' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(529): warning C4514: 'log10' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(531): warning C4514: 'modf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(533): warning C4514: 'pow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(535): warning C4514: 'pow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(537): warning C4514: 'sin' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(539): warning C4514: 'sinh' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(541): warning C4514: 'sqrt' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(543): warning C4514: 'tan' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(545): warning C4514: 'tanh' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(547): warning C4514: 'abs' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(549): warning C4514: 'acos' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(551): warning C4514: 'asin' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(553): warning C4514: 'atan' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(555): warning C4514: 'atan2' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(557): warning C4514: 'ceil' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(559): warning C4514: 'cos' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(561): warning C4514: 'cosh' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(563): warning C4514: 'exp' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(565): warning C4514: 'fabs' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(567): warning C4514: 'floor' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(569): warning C4514: 'fmod' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(571): warning C4514: 'frexp' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(573): warning C4514: 'ldexp' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(575): warning C4514: 'log' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(577): warning C4514: 'log10' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(579): warning C4514: 'modf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(581): warning C4514: 'pow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(583): warning C4514: 'pow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(585): warning C4514: 'sin' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(587): warning C4514: 'sinh' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(589): warning C4514: 'sqrt' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(591): warning C4514: 'tan' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h(593): warning C4514: 'tanh' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(36): warning C4514: 'swprintf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(49): warning C4514: 'vswprintf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(60): warning C4514: '_swprintf_l' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(73): warning C4514: '_vswprintf_l' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85): warning C4514: 'swprintf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(97): warning C4514: 'vswprintf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(105): warning C4514: '_swprintf_l' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(117): warning C4514: '_vswprintf_l' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(440): warning C4514: 'getwchar' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(442): warning C4514: 'putwchar' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(115): warning C4514: 'strnlen_s' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(214): warning C4514: 'strchr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(216): warning C4514: 'strpbrk' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(218): warning C4514: 'strrchr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(220): warning C4514: 'strstr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(225): warning C4514: 'memchr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(288): warning C4514: 'wcsnlen_s' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(361): warning C4514: 'wcschr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(363): warning C4514: 'wcspbrk' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(365): warning C4514: 'wcsrchr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(367): warning C4514: 'wcsstr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\malloc.h(192): warning C4514: '_MarkAllocaS' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\malloc.h(227): warning C4514: '_freea' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(319): warning C4514: 'std::bad_exception::bad_exception' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(348): warning C4514: 'std::bad_alloc::bad_alloc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(374): warning C4514: 'std::bad_array_new_length::bad_array_new_length' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(431): warning C4514: 'std::_Exception_ptr::operator =' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(436): warning C4514: 'std::_Exception_ptr::operator =' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::_Exception_ptr std::_Exception_ptr::_Current_exception(void)' : function not inlined
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(448) : see declaration of 'std::_Exception_ptr::_Current_exception'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(454): warning C4514: 'std::_Exception_ptr::_Copy_exception' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(470): warning C4514: 'std::operator ==' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(481): warning C4514: 'std::operator ==' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(488): warning C4514: 'std::current_exception' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception(493): warning C4514: 'std::rethrow_exception' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new(55): warning C4514: 'operator new' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new(60): warning C4514: 'operator delete' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new(67): warning C4514: 'operator new[]' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new(72): warning C4514: 'operator delete[]' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wtime.inl(44): warning C4514: '_wctime' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wtime.inl(52): warning C4514: '_wctime_s' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(1194): warning C4514: 'fwide' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(1196): warning C4514: 'mbsinit' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(1244): warning C4514: 'wmemchr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdbg.h(1062): warning C4514: 'operator delete' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdbg.h(1064): warning C4514: 'operator delete[]' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(289): warning C4514: 'std::char_traits<wchar_t>::compare' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(306): warning C4514: 'std::char_traits<wchar_t>::_Copy_s' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(314): warning C4514: 'std::char_traits<wchar_t>::find' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(336): warning C4514: 'std::char_traits<wchar_t>::eq' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(341): warning C4514: 'std::char_traits<wchar_t>::lt' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(362): warning C4514: 'std::char_traits<wchar_t>::not_eof' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(384): warning C4514: 'std::char_traits<unsigned short>::compare' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(391): warning C4514: 'std::char_traits<unsigned short>::length' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(403): warning C4514: 'std::char_traits<unsigned short>::_Copy_s' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(411): warning C4514: 'std::char_traits<unsigned short>::find' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(418): warning C4514: 'std::char_traits<unsigned short>::move' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(425): warning C4514: 'std::char_traits<unsigned short>::assign' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(430): warning C4514: 'std::char_traits<unsigned short>::assign' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(435): warning C4514: 'std::char_traits<unsigned short>::eq' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(440): warning C4514: 'std::char_traits<unsigned short>::lt' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(461): warning C4514: 'std::char_traits<unsigned short>::not_eof' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(500): warning C4514: 'std::char_traits<char>::_Copy_s' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(508): warning C4514: 'std::char_traits<char>::find' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(530): warning C4514: 'std::char_traits<char>::eq' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd(535): warning C4514: 'std::char_traits<char>::lt' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(197): warning C4514: 'std::numeric_limits<char>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(203): warning C4514: 'std::numeric_limits<char>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(209): warning C4514: 'std::numeric_limits<char>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(214): warning C4514: 'std::numeric_limits<char>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(219): warning C4514: 'std::numeric_limits<char>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(224): warning C4514: 'std::numeric_limits<char>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(229): warning C4514: 'std::numeric_limits<char>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(234): warning C4514: 'std::numeric_limits<char>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(262): warning C4514: 'std::numeric_limits<wchar_t>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(268): warning C4514: 'std::numeric_limits<wchar_t>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(274): warning C4514: 'std::numeric_limits<wchar_t>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(279): warning C4514: 'std::numeric_limits<wchar_t>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(284): warning C4514: 'std::numeric_limits<wchar_t>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(289): warning C4514: 'std::numeric_limits<wchar_t>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(294): warning C4514: 'std::numeric_limits<wchar_t>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(299): warning C4514: 'std::numeric_limits<wchar_t>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(328): warning C4514: 'std::numeric_limits<std::_Bool>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(334): warning C4514: 'std::numeric_limits<std::_Bool>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(340): warning C4514: 'std::numeric_limits<std::_Bool>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(345): warning C4514: 'std::numeric_limits<std::_Bool>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(350): warning C4514: 'std::numeric_limits<std::_Bool>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(355): warning C4514: 'std::numeric_limits<std::_Bool>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(360): warning C4514: 'std::numeric_limits<std::_Bool>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(365): warning C4514: 'std::numeric_limits<std::_Bool>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(392): warning C4514: 'std::numeric_limits<signed char>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(398): warning C4514: 'std::numeric_limits<signed char>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(404): warning C4514: 'std::numeric_limits<signed char>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(409): warning C4514: 'std::numeric_limits<signed char>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(414): warning C4514: 'std::numeric_limits<signed char>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(419): warning C4514: 'std::numeric_limits<signed char>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(424): warning C4514: 'std::numeric_limits<signed char>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(429): warning C4514: 'std::numeric_limits<signed char>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(455): warning C4514: 'std::numeric_limits<unsigned char>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(461): warning C4514: 'std::numeric_limits<unsigned char>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(467): warning C4514: 'std::numeric_limits<unsigned char>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(472): warning C4514: 'std::numeric_limits<unsigned char>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(477): warning C4514: 'std::numeric_limits<unsigned char>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(482): warning C4514: 'std::numeric_limits<unsigned char>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(487): warning C4514: 'std::numeric_limits<unsigned char>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(492): warning C4514: 'std::numeric_limits<unsigned char>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(518): warning C4514: 'std::numeric_limits<short>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(524): warning C4514: 'std::numeric_limits<short>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(530): warning C4514: 'std::numeric_limits<short>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(535): warning C4514: 'std::numeric_limits<short>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(540): warning C4514: 'std::numeric_limits<short>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(545): warning C4514: 'std::numeric_limits<short>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(550): warning C4514: 'std::numeric_limits<short>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(555): warning C4514: 'std::numeric_limits<short>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(584): warning C4514: 'std::numeric_limits<unsigned short>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(590): warning C4514: 'std::numeric_limits<unsigned short>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(596): warning C4514: 'std::numeric_limits<unsigned short>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(601): warning C4514: 'std::numeric_limits<unsigned short>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(606): warning C4514: 'std::numeric_limits<unsigned short>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(611): warning C4514: 'std::numeric_limits<unsigned short>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(616): warning C4514: 'std::numeric_limits<unsigned short>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(621): warning C4514: 'std::numeric_limits<unsigned short>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(712): warning C4514: 'std::numeric_limits<int>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(718): warning C4514: 'std::numeric_limits<int>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(724): warning C4514: 'std::numeric_limits<int>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(729): warning C4514: 'std::numeric_limits<int>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(734): warning C4514: 'std::numeric_limits<int>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(739): warning C4514: 'std::numeric_limits<int>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(744): warning C4514: 'std::numeric_limits<int>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(749): warning C4514: 'std::numeric_limits<int>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(777): warning C4514: 'std::numeric_limits<unsigned int>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(783): warning C4514: 'std::numeric_limits<unsigned int>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(789): warning C4514: 'std::numeric_limits<unsigned int>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(794): warning C4514: 'std::numeric_limits<unsigned int>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(799): warning C4514: 'std::numeric_limits<unsigned int>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(804): warning C4514: 'std::numeric_limits<unsigned int>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(809): warning C4514: 'std::numeric_limits<unsigned int>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(814): warning C4514: 'std::numeric_limits<unsigned int>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(842): warning C4514: 'std::numeric_limits<long>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(848): warning C4514: 'std::numeric_limits<long>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(854): warning C4514: 'std::numeric_limits<long>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(859): warning C4514: 'std::numeric_limits<long>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(864): warning C4514: 'std::numeric_limits<long>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(869): warning C4514: 'std::numeric_limits<long>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(874): warning C4514: 'std::numeric_limits<long>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(879): warning C4514: 'std::numeric_limits<long>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(907): warning C4514: 'std::numeric_limits<unsigned long>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(913): warning C4514: 'std::numeric_limits<unsigned long>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(919): warning C4514: 'std::numeric_limits<unsigned long>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(924): warning C4514: 'std::numeric_limits<unsigned long>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(929): warning C4514: 'std::numeric_limits<unsigned long>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(934): warning C4514: 'std::numeric_limits<unsigned long>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(939): warning C4514: 'std::numeric_limits<unsigned long>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(944): warning C4514: 'std::numeric_limits<unsigned long>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1035): warning C4514: 'std::numeric_limits<__int64>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1041): warning C4514: 'std::numeric_limits<__int64>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1047): warning C4514: 'std::numeric_limits<__int64>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1052): warning C4514: 'std::numeric_limits<__int64>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1057): warning C4514: 'std::numeric_limits<__int64>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1062): warning C4514: 'std::numeric_limits<__int64>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1067): warning C4514: 'std::numeric_limits<__int64>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1072): warning C4514: 'std::numeric_limits<__int64>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1100): warning C4514: 'std::numeric_limits<unsigned __int64>::max' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1106): warning C4514: 'std::numeric_limits<unsigned __int64>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1112): warning C4514: 'std::numeric_limits<unsigned __int64>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1117): warning C4514: 'std::numeric_limits<unsigned __int64>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1122): warning C4514: 'std::numeric_limits<unsigned __int64>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1127): warning C4514: 'std::numeric_limits<unsigned __int64>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1132): warning C4514: 'std::numeric_limits<unsigned __int64>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1137): warning C4514: 'std::numeric_limits<unsigned __int64>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1161): warning C4514: 'std::numeric_limits<float>::min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1172): warning C4514: 'std::numeric_limits<float>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1178): warning C4514: 'std::numeric_limits<float>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1183): warning C4514: 'std::numeric_limits<float>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1188): warning C4514: 'std::numeric_limits<float>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1193): warning C4514: 'std::numeric_limits<float>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1198): warning C4514: 'std::numeric_limits<float>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1203): warning C4514: 'std::numeric_limits<float>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1228): warning C4514: 'std::numeric_limits<double>::min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1239): warning C4514: 'std::numeric_limits<double>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1245): warning C4514: 'std::numeric_limits<double>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1250): warning C4514: 'std::numeric_limits<double>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1255): warning C4514: 'std::numeric_limits<double>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1260): warning C4514: 'std::numeric_limits<double>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1265): warning C4514: 'std::numeric_limits<double>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1270): warning C4514: 'std::numeric_limits<double>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1295): warning C4514: 'std::numeric_limits<long double>::min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1306): warning C4514: 'std::numeric_limits<long double>::lowest' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1312): warning C4514: 'std::numeric_limits<long double>::epsilon' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1317): warning C4514: 'std::numeric_limits<long double>::round_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1322): warning C4514: 'std::numeric_limits<long double>::denorm_min' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1327): warning C4514: 'std::numeric_limits<long double>::infinity' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1332): warning C4514: 'std::numeric_limits<long double>::quiet_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits(1337): warning C4514: 'std::numeric_limits<long double>::signaling_NaN' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(36): warning C4514: 'std::_Container_base0::_Orphan_all' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(40): warning C4514: 'std::_Container_base0::_Swap_all' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(51): warning C4514: 'std::_Iterator_base0::_Getcont' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(63): warning C4514: 'std::_Container_proxy::_Container_proxy' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(75): warning C4514: 'std::_Container_base12::_Container_base12' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(80): warning C4514: 'std::_Container_base12::_Container_base12' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(85): warning C4514: 'std::_Container_base12::operator =' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(90): warning C4514: 'std::_Container_base12::~_Container_base12' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(95): warning C4514: 'std::_Container_base12::_Getpfirst' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(109): warning C4514: 'std::_Iterator_base12::_Iterator_base12' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(114): warning C4514: 'std::_Iterator_base12::_Iterator_base12' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(127): warning C4514: 'std::_Iterator_base12::~_Iterator_base12' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(156): warning C4514: 'std::_Iterator_base12::_Clrcont' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(161): warning C4514: 'std::_Iterator_base12::_Getcont' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(166): warning C4514: 'std::_Iterator_base12::_Getpnext' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(171): warning C4514: 'std::_Iterator_base12::_Orphan_me' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(101): warning C4514: 'std::_Container_base12::_Swap_all' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(2695): warning C4514: 'std::_Fill' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(2700): warning C4514: 'std::_Fill' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(2705): warning C4514: 'std::_Fill' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(2728): warning C4514: 'std::_Fill_n' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(2733): warning C4514: 'std::_Fill_n' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(2738): warning C4514: 'std::_Fill_n' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(2995): warning C4514: 'std::_Equal' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(3001): warning C4514: 'std::_Equal' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(3007): warning C4514: 'std::_Equal' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility(3149): warning C4514: 'std::_Lexicographical_compare' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory(67): warning C4514: 'std::_Destroy' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory(72): warning C4514: 'std::_Destroy' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory(78): warning C4514: 'std::_Destroy' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory(238): warning C4514: 'std::allocator<void>::allocator' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory(242): warning C4514: 'std::allocator<void>::allocator' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(23): warning C4514: 'std::logic_error::logic_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(51): warning C4514: 'std::domain_error::domain_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(56): warning C4514: 'std::domain_error::domain_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(79): warning C4514: 'std::invalid_argument::invalid_argument' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(84): warning C4514: 'std::invalid_argument::invalid_argument' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(107): warning C4514: 'std::length_error::length_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(112): warning C4514: 'std::length_error::length_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(135): warning C4514: 'std::out_of_range::out_of_range' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(140): warning C4514: 'std::out_of_range::out_of_range' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(191): warning C4514: 'std::overflow_error::overflow_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(196): warning C4514: 'std::overflow_error::overflow_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(219): warning C4514: 'std::underflow_error::underflow_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(224): warning C4514: 'std::underflow_error::underflow_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(247): warning C4514: 'std::range_error::range_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept(252): warning C4514: 'std::range_error::range_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\typeinfo(46): warning C4514: 'type_info::hash_code' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(25): warning C4514: 'std::_Timevec::_Timevec' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(42): warning C4514: 'std::_Timevec::_Getptr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(111): warning C4514: 'std::_Locinfo::_Getcoll' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(131): warning C4514: 'std::_Locinfo::_Gettnames' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(136): warning C4514: 'std::_Locinfo::_Getdays' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(149): warning C4514: 'std::_Locinfo::_Getmonths' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(174): warning C4514: 'std::_Locinfo::_Getdateorder' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(214): warning C4514: 'std::_LStrcoll' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(222): warning C4514: 'std::_LStrcoll' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(243): warning C4514: 'std::_LStrxfrm' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo(253): warning C4514: 'std::_LStrxfrm' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(69): warning C4514: 'std::locale::id::id' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(104): warning C4514: 'std::locale::facet::_Getcat' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(224): warning C4514: 'std::locale::_Locimp::_Addfac' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(303): warning C4514: 'std::locale::locale' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(319): warning C4514: 'std::locale::locale' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(334): warning C4514: 'std::locale::locale' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(351): warning C4514: 'std::locale::locale' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(371): warning C4514: 'std::locale::locale' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(388): warning C4514: 'std::locale::locale' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::string std::locale::name(void) const' : function not inlined
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(425) : see declaration of 'std::locale::name'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(456): warning C4514: 'std::locale::operator !=' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(468): warning C4514: 'std::locale::locale' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(608): warning C4514: 'std::_Maklocbyte' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(641): warning C4514: 'std::_Maklocchr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(707): warning C4514: 'std::_Maklocstr' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(760): warning C4514: 'std::codecvt_base::max_length' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(765): warning C4514: 'std::codecvt_base::encoding' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(789): warning C4514: 'std::codecvt_base::~codecvt_base' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1514): warning C4514: 'std::codecvt<wchar_t,char,_Mbstatet>::in' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1522): warning C4514: 'std::codecvt<wchar_t,char,_Mbstatet>::out' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1530): warning C4514: 'std::codecvt<wchar_t,char,_Mbstatet>::unshift' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1537): warning C4514: 'std::codecvt<wchar_t,char,_Mbstatet>::length' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1545): warning C4514: 'std::codecvt<wchar_t,char,_Mbstatet>::codecvt' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1559): warning C4514: 'std::codecvt<wchar_t,char,_Mbstatet>::_Getcat' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1750): warning C4514: 'std::codecvt<unsigned short,char,_Mbstatet>::in' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1758): warning C4514: 'std::codecvt<unsigned short,char,_Mbstatet>::out' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1766): warning C4514: 'std::codecvt<unsigned short,char,_Mbstatet>::unshift' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1773): warning C4514: 'std::codecvt<unsigned short,char,_Mbstatet>::length' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1781): warning C4514: 'std::codecvt<unsigned short,char,_Mbstatet>::codecvt' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(1795): warning C4514: 'std::codecvt<unsigned short,char,_Mbstatet>::_Getcat' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2017): warning C4514: 'std::ctype_base::~ctype_base' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2275): warning C4514: 'std::ctype<char>::is' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2285): warning C4514: 'std::ctype<char>::scan_is' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2294): warning C4514: 'std::ctype<char>::scan_not' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2303): warning C4514: 'std::ctype<char>::tolower' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2308): warning C4514: 'std::ctype<char>::tolower' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2313): warning C4514: 'std::ctype<char>::toupper' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2318): warning C4514: 'std::ctype<char>::toupper' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2328): warning C4514: 'std::ctype<char>::widen' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2334): warning C4514: 'std::ctype<char>::narrow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2339): warning C4514: 'std::ctype<char>::narrow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2347): warning C4514: 'std::ctype<char>::ctype' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2383): warning C4514: 'std::ctype<char>::classic_table' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2487): warning C4514: 'std::ctype<wchar_t>::is' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2493): warning C4514: 'std::ctype<wchar_t>::scan_is' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2499): warning C4514: 'std::ctype<wchar_t>::scan_not' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2505): warning C4514: 'std::ctype<wchar_t>::tolower' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2510): warning C4514: 'std::ctype<wchar_t>::tolower' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2515): warning C4514: 'std::ctype<wchar_t>::toupper' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2520): warning C4514: 'std::ctype<wchar_t>::toupper' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2525): warning C4514: 'std::ctype<wchar_t>::widen' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2530): warning C4514: 'std::ctype<wchar_t>::widen' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2536): warning C4514: 'std::ctype<wchar_t>::narrow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2541): warning C4514: 'std::ctype<wchar_t>::narrow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2549): warning C4514: 'std::ctype<wchar_t>::ctype' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2712): warning C4514: 'std::ctype<unsigned short>::is' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2718): warning C4514: 'std::ctype<unsigned short>::scan_is' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2724): warning C4514: 'std::ctype<unsigned short>::scan_not' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2730): warning C4514: 'std::ctype<unsigned short>::tolower' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2735): warning C4514: 'std::ctype<unsigned short>::tolower' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2740): warning C4514: 'std::ctype<unsigned short>::toupper' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2745): warning C4514: 'std::ctype<unsigned short>::toupper' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2750): warning C4514: 'std::ctype<unsigned short>::widen' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2755): warning C4514: 'std::ctype<unsigned short>::widen' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2761): warning C4514: 'std::ctype<unsigned short>::narrow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2766): warning C4514: 'std::ctype<unsigned short>::narrow' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2774): warning C4514: 'std::ctype<unsigned short>::ctype' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2952): warning C4514: 'std::ctype_byname<char>::ctype_byname' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(2958): warning C4514: 'std::ctype_byname<char>::ctype_byname' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(149): warning C4514: 'std::error_category::error_category' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(174): warning C4514: 'std::error_category::operator !=' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(196): warning C4514: 'std::error_code::error_code' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(216): warning C4514: 'std::error_code::assign' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(230): warning C4514: 'std::error_code::clear' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(248): warning C4514: 'std::error_code::message' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(253): warning C4514: 'std::error_code::operator std::_Bool_type' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(258): warning C4514: 'std::error_code::operator !' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(269): warning C4514: 'std::error_code::operator !=' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(274): warning C4514: 'std::error_code::operator <' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(292): warning C4514: 'std::error_condition::error_condition' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(312): warning C4514: 'std::error_condition::assign' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(326): warning C4514: 'std::error_condition::clear' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(342): warning C4514: 'std::error_condition::message' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(347): warning C4514: 'std::error_condition::operator std::_Bool_type' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(352): warning C4514: 'std::error_condition::operator !' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(363): warning C4514: 'std::error_condition::operator !=' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(368): warning C4514: 'std::error_condition::operator <' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(246): warning C4514: 'std::error_code::default_error_condition' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(425): warning C4514: 'std::operator !=' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(432): warning C4514: 'std::operator !=' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(440): warning C4514: 'std::make_error_code' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(451): warning C4514: 'std::make_error_condition' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(456): warning C4514: 'std::make_error_condition' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(472): warning C4514: 'std::hash<std::error_code>::operator ()' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(490): warning C4514: 'std::hash<std::error_condition>::operator ()' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(520): warning C4514: 'std::system_error::system_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(528): warning C4514: 'std::system_error::system_error' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error(545): warning C4514: 'std::system_error::code' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(228): warning C4514: 'std::ios_base::failure::failure' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(270): warning C4514: 'std::ios_base::Init::Init' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(275): warning C4514: 'std::ios_base::Init::~Init' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(289): warning C4514: 'std::ios_base::operator =' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(299): warning C4514: 'std::ios_base::operator void *' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(304): warning C4514: 'std::ios_base::operator !' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(329): warning C4514: 'std::ios_base::clear' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(339): warning C4514: 'std::ios_base::setstate' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(351): warning C4514: 'std::ios_base::setstate' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(372): warning C4514: 'std::ios_base::bad' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(377): warning C4514: 'std::ios_base::exceptions' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(388): warning C4514: 'std::ios_base::exceptions' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(398): warning C4514: 'std::ios_base::flags' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(431): warning C4514: 'std::ios_base::precision' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::locale std::ios_base::getloc(void) const' : function not inlined
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(450) : see declaration of 'std::ios_base::getloc'
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(455): warning C4514: 'std::ios_base::imbue' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(463): warning C4514: 'std::ios_base::xalloc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(514): warning C4514: 'std::ios_base::sync_with_stdio' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(523): warning C4514: 'std::ios_base::swap' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase(656): warning C4514: 'std::ios_base::~ios_base' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(192): warning C4514: 'std::boolalpha' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(198): warning C4514: 'std::dec' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(205): warning C4514: 'std::defaultfloat' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(212): warning C4514: 'std::fixed' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(218): warning C4514: 'std::hex' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(226): warning C4514: 'std::tr1::hexfloat' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(240): warning C4514: 'std::internal' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(246): warning C4514: 'std::left' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(252): warning C4514: 'std::noboolalpha' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(258): warning C4514: 'std::noshowbase' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(264): warning C4514: 'std::noshowpoint' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(270): warning C4514: 'std::noshowpos' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(276): warning C4514: 'std::noskipws' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(282): warning C4514: 'std::nounitbuf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(288): warning C4514: 'std::nouppercase' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(294): warning C4514: 'std::oct' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(300): warning C4514: 'std::right' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(306): warning C4514: 'std::scientific' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(312): warning C4514: 'std::showbase' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(318): warning C4514: 'std::showpoint' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(324): warning C4514: 'std::showpos' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(330): warning C4514: 'std::skipws' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(336): warning C4514: 'std::unitbuf' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(342): warning C4514: 'std::uppercase' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1003): warning C4514: 'std::endl' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1011): warning C4514: 'std::endl' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1021): warning C4514: 'std::endl' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1031): warning C4514: 'std::ends' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1038): warning C4514: 'std::ends' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1047): warning C4514: 'std::ends' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1056): warning C4514: 'std::flush' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1063): warning C4514: 'std::flush' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(1072): warning C4514: 'std::flush' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1171): warning C4514: 'std::ws' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1206): warning C4514: 'std::ws' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1242): warning C4514: 'std::ws' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(46): warning C4514: 'std::_Fgetc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(59): warning C4514: 'std::_Fgetc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(84): warning C4514: 'std::_Fputc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(90): warning C4514: 'std::_Fputc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(108): warning C4514: 'std::_Ungetc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(113): warning C4514: 'std::_Ungetc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(118): warning C4514: 'std::_Ungetc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\fstream(124): warning C4514: 'std::_Ungetc' : unreferenced inline function has been removed
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(341): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::pbackfail' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(420): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::seekoff' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(427): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::seekpos' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(433): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::setbuf' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(443): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::imbue' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(341): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::pbackfail' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(346): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::showmanyc' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(362): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::xsgetn' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(391): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::xsputn' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(420): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::seekoff' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(427): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::seekpos' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(433): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::setbuf' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(443): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::imbue' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::string std::numpunct<_Elem>::do_grouping(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(172) : see declaration of 'std::numpunct<_Elem>::do_grouping'
+                 with
+                 [
+                     _Elem=char
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::do_falsename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(177) : see declaration of 'std::numpunct<_Elem>::do_falsename'
+                 with
+                 [
+                     _Elem=char
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::do_truename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(182) : see declaration of 'std::numpunct<_Elem>::do_truename'
+                 with
+                 [
+                     _Elem=char
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(362): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(399): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(422): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(444): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(464): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(485): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(505): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(526): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(550): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(574): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(598): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1141): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1181): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1192): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1202): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1213): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1255): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1296): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::string std::numpunct<_Elem>::do_grouping(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(172) : see declaration of 'std::numpunct<_Elem>::do_grouping'
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::do_falsename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Ax=std::allocator<wchar_t>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(177) : see declaration of 'std::numpunct<_Elem>::do_falsename'
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::do_truename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Ax=std::allocator<wchar_t>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(182) : see declaration of 'std::numpunct<_Elem>::do_truename'
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(362): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(399): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(422): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(444): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(464): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(485): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(505): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(526): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(550): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(574): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(598): warning C4514: 'std::num_get<_Elem,_InIt>::do_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1141): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1181): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1192): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1202): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1213): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1255): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1296): warning C4514: 'std::num_put<_Elem,_OutIt>::do_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(464): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::~basic_streambuf' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(464): warning C4514: 'std::basic_streambuf<_Elem,_Traits>::~basic_streambuf' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1031): warning C4514: 'std::num_get<_Elem,_InIt>::~num_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1573): warning C4514: 'std::num_put<_Elem,_OutIt>::~num_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1031): warning C4514: 'std::num_get<_Elem,_InIt>::~num_get' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _InIt=std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(1573): warning C4514: 'std::num_put<_Elem,_OutIt>::~num_put' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _OutIt=std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(178): warning C4514: 'std::basic_ios<_Elem,_Traits>::~basic_ios' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios(178): warning C4514: 'std::basic_ios<_Elem,_Traits>::~basic_ios' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(604): warning C4514: 'std::basic_ostream<_Elem,_Traits>::~basic_ostream' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream(604): warning C4514: 'std::basic_ostream<_Elem,_Traits>::~basic_ostream' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(860): warning C4514: 'std::basic_istream<_Elem,_Traits>::~basic_istream' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(860): warning C4514: 'std::basic_istream<_Elem,_Traits>::~basic_istream' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(965): warning C4514: 'std::basic_iostream<_Elem,_Traits>::~basic_iostream' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(965): warning C4514: 'std::basic_iostream<_Elem,_Traits>::~basic_iostream' : unreferenced inline function has been removed
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::falsename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(82) : see declaration of 'std::numpunct<_Elem>::falsename'
+                 with
+                 [
+                     _Elem=char
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::truename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(87) : see declaration of 'std::numpunct<_Elem>::truename'
+                 with
+                 [
+                     _Elem=char
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::falsename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Ax=std::allocator<wchar_t>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(82) : see declaration of 'std::numpunct<_Elem>::falsename'
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::basic_string<_Elem,_Traits,_Ax> std::numpunct<_Elem>::truename(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Ax=std::allocator<wchar_t>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(87) : see declaration of 'std::numpunct<_Elem>::truename'
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::locale std::basic_streambuf<_Elem,_Traits>::getloc(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf(128) : see declaration of 'std::basic_streambuf<_Elem,_Traits>::getloc'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::string std::numpunct<_Elem>::grouping(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=char
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(77) : see declaration of 'std::numpunct<_Elem>::grouping'
+                 with
+                 [
+                     _Elem=char
+                 ]
+     1>c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(862): warning C4710: 'std::string std::numpunct<_Elem>::grouping(void) const' : function not inlined
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum(77) : see declaration of 'std::numpunct<_Elem>::grouping'
+                 with
+                 [
+                     _Elem=wchar_t
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xlocale(125): warning C4710: 'class std::locale::facet * __thiscall std::locale::facet::_Decref(void)' : function not inlined
+     1>c:\users\wack\desktop\ace tres finalx\songplayer.cpp(83): warning C4715: 'UpdateSong' : not all control paths return a value
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(629): warning C4710: 'bool __thiscall std::codecvt_base::always_noconv(void)const ' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xlocale(516): warning C4710: 'static unsigned int __cdecl std::codecvt<char,char,int>::_Getcat(class std::locale::facet const * *,class std::locale const *)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xlocale(116): warning C4710: 'void __thiscall std::locale::facet::_Incref(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(152): warning C4710: '__thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(400): warning C4710: 'void __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Set_back(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(551): warning C4710: 'class std::codecvt<char,char,int> const & __cdecl std::use_facet<class std::codecvt<char,char,int> >(class std::locale const &)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(629): warning C4710: 'bool __thiscall std::codecvt_base::always_noconv(void)const ' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(224): warning C4710: 'class std::locale __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const ' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(224): warning C4710: 'class std::codecvt<char,char,int> const & __cdecl std::use_facet<class std::codecvt<char,char,int> >(class std::locale const &)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(629): warning C4710: 'bool __thiscall std::codecvt_base::always_noconv(void)const ' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xlocale(125): warning C4710: 'class std::locale::facet * __thiscall std::locale::facet::_Decref(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(116): warning C4710: 'class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(124): warning C4710: 'void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(116): warning C4710: 'class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(784): warning C4710: 'int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(791): warning C4710: '__int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(797): warning C4710: 'int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(803): warning C4710: 'void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(806): warning C4710: 'void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ostream(124): warning C4710: 'void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)' : function not inlined
+     1>c:\users\wack\desktop\ace tres finalx\songplayer.cpp(36): warning C4710: 'class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::operator<<<struct std::char_traits<char> >(class std::basic_ostream<char,struct std::char_traits<char> > &,char const *)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(862): warning C4710: 'class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::open(char const *,int,int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(863): warning C4710: 'void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(865): warning C4710: 'void __thiscall std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(1937): warning C4710: 'char * __thiscall std::allocator<char>::allocate(unsigned int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(1963): warning C4710: 'void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int,unsigned int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(1963): warning C4710: 'void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int,unsigned int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(852): warning C4710: 'void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Chassign(unsigned int,unsigned int,char)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(1963): warning C4710: 'void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int,unsigned int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(642): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(449): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(451): warning C4710: 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(unsigned int,char)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(454): warning C4710: 'int __thiscall std::codecvt<char,char,int>::in(int &,char const *,char const *,char const * &,char *,char *,char * &)const ' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(463): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(467): warning C4710: 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int,unsigned int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(477): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(480): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(483): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(608): warning C4710: 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(unsigned int,char)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(1963): warning C4710: 'void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int,unsigned int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(600): warning C4710: 'int __thiscall std::codecvt<char,char,int>::unshift(int &,char *,char *,char * &)const ' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(610): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(612): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(614): warning C4710: 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(unsigned int,char)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(619): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(622): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(624): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(642): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xstring(1963): warning C4710: 'void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Copy(unsigned int,unsigned int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(348): warning C4710: 'int __thiscall std::codecvt<char,char,int>::out(int &,char const *,char const *,char const * &,char *,char *,char * &)const ' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(356): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(360): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(365): warning C4710: 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::append(unsigned int,char)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(367): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(373): warning C4710: 'bool __cdecl std::_Fputc<char>(char,struct _iobuf *)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(373): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(376): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(378): warning C4710: '__thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(501): warning C4710: 'bool __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(519): warning C4710: 'bool __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(524): warning C4710: 'void __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Reset_back(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(298): warning C4710: 'bool __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(298): warning C4710: 'bool __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::_Endwrite(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(885): warning C4710: 'void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(147): warning C4710: 'class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::close(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(148): warning C4710: 'virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(147): warning C4710: 'class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::close(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(148): warning C4710: 'virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(707): warning C4710: '__thiscall std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(152): warning C4710: '__thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\streambuf(322): warning C4710: 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(147): warning C4710: 'class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::close(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(148): warning C4710: 'virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ios(37): warning C4710: 'virtual __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::~basic_ifstream<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\ios(37): warning C4710: 'virtual __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::~basic_ifstream<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\users\wack\desktop\ace tres finalx\songplayer.cpp(104): warning C4710: '__thiscall std::basic_ifstream<char,struct std::char_traits<char> >::basic_ifstream<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(862): warning C4710: 'class std::basic_filebuf<char,struct std::char_traits<char> > * __thiscall std::basic_filebuf<char,struct std::char_traits<char> >::open(char const *,int,int)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(863): warning C4710: 'void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)' : function not inlined
+     1>c:\program files\microsoft visual studio 10.0\vc\include\fstream(865): warning C4710: 'void __thiscall std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)' : function not inlined
+     1>c:\users\wack\desktop\ace tres finalx\songplayer.cpp(110): warning C4710: 'virtual __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::~basic_ifstream<char,struct std::char_traits<char> >(void)' : function not inlined
+     1>c:\users\wack\desktop\ace tres finalx\songplayer.cpp(114): warning C4710: 'class std::basic_istream<char,struct std::char_traits<char> > & __thiscall std::basic_istream<char,struct std::char_traits<char> >::getline(char *,__int64)' : function not inlined
+     1>c:\users\wack\desktop\ace tres finalx\songplayer.cpp(118): warning C4710: 'void __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::close(void)' : function not inlined
+     1>c:\users\wack\desktop\ace tres finalx\songplayer.cpp(120): warning C4710: 'virtual __thiscall std::basic_ifstream<char,struct std::char_traits<char> >::~basic_ifstream<char,struct std::char_traits<char> >(void)' : function not inlined
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres\Ace Tres.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Ace Tres\Ace Tres.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres\Ace Tres.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres\Ace Tres.lib" /MACHINE:X86 "Ace Tres\ApeBoss.obj"
+         "Ace Tres\Chameleon.obj"
+         "Ace Tres\Credits.obj"
+         "Ace Tres\Croctopus.obj"
+         "Ace Tres\Decapede.obj"
+         "Ace Tres\DirectSound.obj"
+         "Ace Tres\DrillBee.obj"
+         "Ace Tres\Enemy.obj"
+         "Ace Tres\EnemyHandler.obj"
+         "Ace Tres\LightningBee.obj"
+         "Ace Tres\LyricsHandler.obj"
+         "Ace Tres\MyDirectX.obj"
+         "Ace Tres\MyGame.obj"
+         "Ace Tres\MyMesh.obj"
+         "Ace Tres\MyWindows.obj"
+         "Ace Tres\particlesystem.obj"
+         "Ace Tres\Platform.obj"
+         "Ace Tres\PlatformHandler.obj"
+         "Ace Tres\Powerup.obj"
+         "Ace Tres\PowerupHolder.obj"
+         "Ace Tres\ProjectileApe.obj"
+         "Ace Tres\QueenBee.obj"
+         "Ace Tres\Reyk.obj"
+         "Ace Tres\SmallApe.obj"
+         "Ace Tres\SongPlayer.obj"
+         "Ace Tres\TankBee.obj"
+         "Ace Tres\XBoss.obj"
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Stream_Play@8 referenced in function "bool __cdecl UpdateSong(struct FSOUND_STREAM * &,char *,int,int)" (?UpdateSong@@YA_NAAPAUFSOUND_STREAM@@PADHH@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_SetVolumeAbsolute@8 referenced in function "bool __cdecl UpdateSong(struct FSOUND_STREAM * &,char *,int,int)" (?UpdateSong@@YA_NAAPAUFSOUND_STREAM@@PADHH@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Stream_SetLoopCount@8 referenced in function "bool __cdecl UpdateSong(struct FSOUND_STREAM * &,char *,int,int)" (?UpdateSong@@YA_NAAPAUFSOUND_STREAM@@PADHH@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Stream_Open@16 referenced in function "bool __cdecl UpdateSong(struct FSOUND_STREAM * &,char *,int,int)" (?UpdateSong@@YA_NAAPAUFSOUND_STREAM@@PADHH@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Stream_GetLengthMs@4 referenced in function "bool __cdecl UpdateSong(struct FSOUND_STREAM * &,char *,int,int)" (?UpdateSong@@YA_NAAPAUFSOUND_STREAM@@PADHH@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Stream_GetTime@4 referenced in function "bool __cdecl UpdateSong(struct FSOUND_STREAM * &,char *,int,int)" (?UpdateSong@@YA_NAAPAUFSOUND_STREAM@@PADHH@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Close@0 referenced in function "void __cdecl SongPlayerClose(struct FSOUND_STREAM * &)" (?SongPlayerClose@@YAXAAPAUFSOUND_STREAM@@@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Stream_Close@4 referenced in function "void __cdecl SongPlayerClose(struct FSOUND_STREAM * &)" (?SongPlayerClose@@YAXAAPAUFSOUND_STREAM@@@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Stream_Stop@4 referenced in function "void __cdecl SongPlayerClose(struct FSOUND_STREAM * &)" (?SongPlayerClose@@YAXAAPAUFSOUND_STREAM@@@Z)
+     1>SongPlayer.obj : error LNK2019: unresolved external symbol _FSOUND_Init@12 referenced in function "struct FSOUND_STREAM * __cdecl LoadAndPlay(char *,int,int)" (?LoadAndPlay@@YAPAUFSOUND_STREAM@@PADHH@Z)
+     1>C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres\Ace Tres.exe : fatal error LNK1120: 10 unresolved externals
+     1>Done Building Project "C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.82

@@ -1,0 +1,13 @@
+﻿Build started 2/22/2012 12:09:08 AM.
+     1>Project "C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Ass\Ace Tres.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ot /Oy /GT /GL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Ass\\" /Fd"Ass\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ApeBoss.cpp Chameleon.cpp Credits.cpp Croctopus.cpp Decapede.cpp DirectSound.cpp DrillBee.cpp Enemy.cpp EnemyHandler.cpp LightningBee.cpp LyricsHandler.cpp MyDirectX.cpp MyGame.cpp MyMesh.cpp MyWindows.cpp particlesystem.cpp Platform.cpp PlatformHandler.cpp Powerup.cpp PowerupHolder.cpp ProjectileApe.cpp QueenBee.cpp Reyk.cpp SmallApe.cpp SongPlayer.cpp TankBee.cpp XBoss.cpp
+     1>cl : Command line error D8016: '/O2' and '/RTC1' command-line options are incompatible
+     1>Done Building Project "C:\Users\Wack\Desktop\Ace Tres Finalx\Ace Tres.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20
